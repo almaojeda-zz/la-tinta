@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Tinta | Diario Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <span>Jueves, 8 de octubre de 2026</span>
+      <span>Edición digital</span>
+    </div>
+  </header>
+
+  <header class="masthead">
+    <div class="container">
+      <p class="eyebrow">EL DIARIO QUE CUENTA LO QUE PASA</p>
+      <h1>La Tinta</h1>
+      <p class="tagline">Historias que dejan huella.</p>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <div class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#actualidad">Actualidad</a>
+        <a href="#cultura">Cultura</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#deportes">Deportes</a>
+        <a href="#opinion">Opinión</a>
+      </div>
+      <button id="themeBtn" class="theme-btn" title="Cambiar modo">◐</button>
+    </div>
+  </nav>
+
+  <main id="inicio" class="container">
+    <section class="breaking">
+      <span>ÚLTIMA HORA</span>
+      <p>La ciudad se prepara para un fin de semana lleno de actividades culturales y propuestas al aire libre.</p>
+    </section>
+
+    <section class="hero-grid">
+      <article class="hero-story">
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1400&q=85" alt="Paisaje urbano al atardecer">
+        <div class="story-body">
+          <span class="category">ACTUALIDAD</span>
+          <h2>Cuando la ciudad baja el ritmo, aparecen nuevas historias</h2>
+          <p class="lead">Una mirada a los rincones, personajes y pequeñas escenas que convierten un día común en una historia para contar.</p>
+          <button class="read-more">Leer la nota →</button>
+        </div>
+      </article>
+
+      <aside class="side-news">
+        <article class="mini-card">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=85" alt="Persona usando una computadora">
+          <div><span class="category">TECNOLOGÍA</span><h3>Las herramientas digitales que están cambiando nuestra rutina</h3><small>Hace 2 horas</small></div>
+        </article>
+        <article class="mini-card">
+          <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=700&q=85" alt="Personas conversando">
+          <div><span class="category">CULTURA</span><h3>El regreso de los encuentros cara a cara</h3><small>Hace 4 horas</small></div>
+        </article>
+      </aside>
+    </section>
+
+    <section id="actualidad" class="section">
+      <div class="section-title"><h2>Las noticias del día</h2><span>Selección de La Tinta</span></div>
+      <div class="news-grid">
+        <article class="news-card">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85" alt="Oficina luminosa">
+          <span class="category">ACTUALIDAD</span><h3>Nuevas formas de trabajar: más flexibilidad, más desafíos</h3><p>Ideas y tendencias que están transformando los espacios laborales.</p>
+        </article>
+        <article id="cultura" class="news-card">
+          <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=85" alt="Materiales de arte">
+          <span class="category">CULTURA</span><h3>El arte cotidiano también merece una portada</h3><p>Creadores locales encuentran nuevas maneras de contar lo que sienten.</p>
+        </article>
+        <article id="deportes" class="news-card">
+          <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=900&q=85" alt="Corredor en una pista">
+          <span class="category">DEPORTES</span><h3>Entrenar también es aprender a esperar</h3><p>La constancia detrás de los grandes resultados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="tecnologia" class="quote">
+      <p>“Las mejores historias no siempre hacen ruido: a veces solo necesitan que alguien las mire de cerca.”</p>
+      <span>— La Tinta</span>
+    </section>
+
+    <section id="opinion" class="opinion">
+      <div><span class="category">OPINIÓN</span><h2>Un diario también es una conversación</h2><p>Información, contexto y una mirada propia para entender mejor lo que pasa alrededor.</p></div>
+      <button class="outline-btn">Ver opiniones</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><h2>La Tinta</h2><p>Historias que dejan huella.</p></div>
+      <div><p>© 2026 La Tinta · Diario Digital</p><p>Hecho para informar, inspirar y conversar.</p></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
